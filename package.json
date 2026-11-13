@@ -1,0 +1,19 @@
+{
+  "name": "people-operations-hub",
+  "version": "1.0.0",
+  "description": "The real frontend of a people-operations dashboard, published with fictional records and a small Express server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^8.3.0"
+  }
+}
